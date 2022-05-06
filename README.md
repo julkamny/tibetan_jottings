@@ -8,5 +8,5 @@ In a few cases, the heading of a page does not correspond to the actual printed 
 - p. 112, instead of རྒྱད་པ་ read རྒྱུད་པ་
 - p. 361, instead of འཕྲང་བ་ read འཕྲེང་བ་
 - p. 430, instead of ཅ་དར་ read ཙ་དར་
-- p. 433, non pas གཅང་བ་ mais གཙང་བ་
+- p. 433, instead of གཅང་བ་ read གཙང་བ་
 - p. 447, instead of ཆབ་ཆབ་ read ཚབ་ཚབ་
