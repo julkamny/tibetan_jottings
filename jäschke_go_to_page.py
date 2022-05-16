@@ -40,13 +40,6 @@ def find_closest_header_page(query, tib_list):
     else:
         offset = 0
     return sorter.sort_list(tib_list + [query]).index(query) + offset
-    # for count,header in enumerate(tib_headers,start=0):
-    #     if count == len(tib_headers):
-    #         break
-    #     ordered_list = sorter.sort_list([header,query,tib_headers[count+1]])
-    #     if ordered_list == [header,query,tib_headers[count+1]]:
-    #         print(ordered_list)
-    #         return header
 
 
 def sorter_test(ordered_headers_list):
@@ -90,7 +83,6 @@ txt_file = os.path.join(
     "tib_dic_utilities",
     "jäschke_headers.md")
 
-# Get list of headers
 tib_headers = []
 try:
     with open(txt_file, "r") as file:
