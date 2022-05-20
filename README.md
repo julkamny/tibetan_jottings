@@ -2,6 +2,15 @@
 
 Both headers have been checked countless times with the [sorting algorithm] to weed out mistakes (either due to my negligence or typos in the dictionary). In their current state they respect the alphabetical order.
 
+## Requirements & explanations
+
+- Download the PDF of [Jäschke's](https://archive.org/details/tibetanenglishdi00jsuoft) and [Das's](https://archive.org/details/tibetanenglishdi00dassuoft/page/738/mode/2up) dictionaries. Rename them so that they respectively contain "Jäschke" and "Das_Tibetan" in their name.
+- Install the file containing the list of headers.
+- Install all the dependencies required for the script to run.
+- Open the PDF with Skim.
+
+Read more about this small project [here](https://www.reddit.com/r/tibetanlanguage/comments/uqp70u/making_j%C3%A4schkes_and_dass_dictionary_easy_to_browse/).
+
 ## Jäschke
 
 In the file containg Jäschke's headers, the symbol "–" was appended to all headers for which the transcription might be erroneous, either because they contain consonants between parentheses or because they contain Sanskrit words which I was not able to reproduce.
