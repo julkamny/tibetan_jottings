@@ -31,7 +31,7 @@ In one case, Jäschke does not seem to respect his own sorting order:
 	27. ཀུན་ནས་ཉོན་མོངས་པ་
 	28. ཀུན་སྤྱོད་ངན་པ་
 	29. ཀུན་རིག་
-30. ཀུན་ད་
+and then 30. ཀུན་ད་
 
-To make it simpler, indented entries are simply not taken into account by the script.
+To make it simpler, headers that are compounds that would have disrupted the alphabetical flow have been indented ; they are not taken into account by the script.
 - On many occasions I have selected another word on the page than the actual header, either because it was shorter and thus faster to type, or to avoid marring the alphabetical order (due to compounds, misplaced words).
