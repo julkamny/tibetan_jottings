@@ -1,6 +1,7 @@
 # tibetan_jottings
 
-Both headers have been checked countless times with the [sorting algorithm] to weed out mistakes (either due to my negligence or typos in the dictionary). In their current state they respect the alphabetical order.
+- To see the script in action, take a look at the uploaded GIF.
+- Both headers have been checked countless times with the [sorting algorithm] to weed out mistakes (either due to my negligence or typos in the dictionary). In their current state they respect the alphabetical order.
 
 ## Requirements & explanations
 
