@@ -35,9 +35,6 @@ def Skim_go_to_page(dic_name, dic_page, offset=0):
 
 
 def find_closest_header_page(query, dic_name):
-    '''
-    func for Das's dic.
-    '''
     if dic_name == "Jäschke":
         headers = jaschke_headers
     elif dic_name == "Das":
@@ -89,8 +86,7 @@ def wordlist_test():
 
 
 def remove_wasur(tib_string):
-    tib_string_bytes = tib_string.encode('utf-8')
-    return tib_string_bytes.replace(b'\xbe\xad\xe0', b'').decode("utf-8")
+    return tib_string.replace("ྭ","")
 
 
 def build_headers(file):
@@ -126,7 +122,8 @@ das_headers_file = os.path.join(
     "tib_dic_utilities",
     "das_headers.md")
 
-query = easygui.enterbox("Tibetan word to be found.")
+# query = easygui.enterbox("Tibetan word to be found.")
+query = remove_wasur(os.environ['KMVAR_local_query'])
 
 das_headers = build_headers(file=das_headers_file)
 jaschke_headers = build_headers(file=jaschke_headers_file)
